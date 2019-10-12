@@ -30,7 +30,7 @@ function SearchForm(values, status) {
         /> */}
         <input name="name" onChange={onInputChange} />
         <button type="submit" onSubmit={onInputChange}>Search</button>
-        <h3>Name: {search.name || "Unknown"}</h3>
+        <h3 className="name-field">Name: {search.name || "Unknown"}</h3>
       </Form>
     </section>
   );
