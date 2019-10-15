@@ -37,3 +37,21 @@ main {
 header h1 {
   text-align: center;
 }
+
+.nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav, .search-form, .name-field {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  margin-top: 10px;
+}
